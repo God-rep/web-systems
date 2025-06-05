@@ -1,0 +1,200 @@
+body{
+    background-color: #00FF00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+#conteiner-principal{
+    position: relative;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    display: flex;
+    width: 98%;
+    height: 96%;
+    margin: 0;
+    padding: 0;
+}
+
+#cabecalho{
+  position:relative;
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 50px;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+#eu{
+    background-color: pink;
+    margin: 0;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    & img{
+      margin-left: 20px;
+      width: 45px;
+      height: 45px;
+      border-radius:50%;
+      
+    }
+    
+    & span{
+      margin-left: 15px;
+      
+    }
+}
+
+#eu:hover{
+ filter: brightness(85%);
+}
+  
+#eu:active{
+  filter: brightness(70%);
+}
+
+
+#menu{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  top: 50px;
+  background-color: #0000FF;
+  width:25%;
+  height: 100%;
+}
+
+#pesquisa-menu{
+  width: 90%;
+  height: 20px;
+  margin-top: 5px;
+  margint-bottom: 5px;
+}
+
+#lista-contatos{
+  list-style: none;
+  margin: 8px;
+  padding: 0;
+  & hr{
+    margin: 0;
+    border: 1px solid grey;
+    
+  }
+  & div{
+    background-color: pink;
+    margin: 0;
+    width: 310px;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    & img{
+      margin-left: 20px;
+      width: 60px;
+      height: 60px;
+      border-radius:50%;
+      
+    }
+    
+    & span{
+      margin-left: 15px;
+      
+    }
+    
+  }
+  & div:hover{
+    filter: brightness(85%);
+  }
+  
+  & div:active{
+    filter: brightness(70%);
+  }
+  
+}
+
+
+
+#area-mensagens{
+    overflow: hidden;
+    position: absolute;
+    top: 50px;
+    left: 25%;
+    background-color: #FF0000;
+    width: 75%;
+    height: 88%;
+    
+}
+
+#area-escrita{
+    position: absolute;
+    bottom:0;
+    left: 25%;
+    background-color: #FFFF00;
+    width: 75%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: flex-end;
+}
+
+
+#caixa-texto{
+    position: absolute;
+    background-color: #FFFFFF;
+    height: 80%;
+    width: 80%;
+    left: 10%;
+    top: 5%;
+    resize: none;
+}
+
+#envia{
+  width: 65px;
+  margin-right: 10px;
+}
+
+#recebe{
+  width:65px;
+  margin-right: 10px;
+}
+
+.mensagem-propria{
+
+
+
+
+}
+
+.mensagem-outros{
+
+
+
+
+}
+
+
+.mensagem-data{
+
+
+
+}
+
+
+.mensagem-aviso{
+
+
+
+}
+
